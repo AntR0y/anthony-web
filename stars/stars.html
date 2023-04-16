@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+	<head>
+
+		<title>Anthony Roytman - Star Collector</title>
+		<!-- Load some fonts from Google fonts -->
+		<!-- Shamelessly stolen from katecompton's index.html-->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald" rel="stylesheet">
+		
+		<!-- Style the page -->
+		<link rel="stylesheet" href="../page.css">
+
+		<!-- P5 Loaded from a CDN -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js"></script>
+
+		<!-- Or P5 loaded locally -->
+		<!--<script src="../sources/p5.min.js"></script>-->
+
+		<!-- Shared resources -->
+		<script src="../sources/vue.min.js"></script>
+		<script src="../sources/dancer.js"></script>
+
+		<!-- Vector library -->
+		<script src="../sources/vector.js"></script>
+		<script src="../sources/curve.js"></script>
+
+		<!-- Arrays of Floats -->
+		<script src="population.js"></script>
+		<script src="aof.js"></script>
+
+		<!-- Visualizations and controls for arrays of floats -->
+		<script src="v-aof.js"></script>
+		
+		<!-- Classes for converting AoF to graphics -->
+		<script src="type-star.js"></script>
+		
+		<!-- Main app -->
+		<script src="app.js"></script>
+
+
+	</head>
+	<body>
+		<header>
+            <div class="home">
+                <a href="../home.html">
+                    THIS IS ME: ANTHONY
+                </a>
+            </div>
+
+            <div class="description">
+                Developer | Playwright
+            </div>
+
+            <div class="nav-bar">
+                <div class="nav-block">
+                    <a href="../about.html">
+                        about
+                    </a>
+                </div>
+                <div class="nav-block">
+                    <a href="../portfolio.html">
+                        portfolio
+                    </a>
+                </div>
+            </div>
+        </header>
+		<div class="portfolio-label">Array of Floats: Customizable Stars</div>
+		<div id="star-column">
+			<div id="controls"></div>
+			<div id="app"></div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+	<head>
+		<title>Anthony Roytman - Costumes</title>
+
+		<!-- Style the page -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald" rel="stylesheet">
+		<link rel="stylesheet" href="../page.css">
+		<link rel="stylesheet" href="../sources/handsfree.css" />
+
+		<!-- P5 Loaded from a CDN -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js"></script>
+
+		<!-- Or P5 loaded locally -->
+		<!--<script src="../sources/p5.min.js"></script>-->
+
+		<script src="../sources/handsfree-8.4.2.js"></script>
+
+		<script src="../sources/vector.js"></script>
+		
+		<script src="../sources/handsfree-utilities.js"></script>
+		<script src="../sources/delaunay-utilities.js"></script>
+		<script src="../sources/neatjson.js"></script>
+		<script src="../sources/vue.min.js"></script>
+		<script src="../sources/delaunator.min.js"></script>
+
+		<!-- recorded face & hand data -->
+		<script src="../sources/testfacedata.js"></script>
+		<script src="../sources/testhanddata.js"></script>
+
+		
+		<script src="face-styles.js"></script>
+
+		
+		<script src="app.js"></script>
+		<script src="../sources/spring.js"></script>
+		<script src="../sources/curve.js"></script>
+
+
+		<!-- Face styles -->
+		<script src="face-blank.js"></script> <!-- A face style Prof. Compton made. Handy for experimentation -->
+		<script src="face-anthony.js"></script>
+	</head>
+
+	<body>
+		<header>
+            <div class="home">
+                <a href="../home.html">
+                    THIS IS ME: ANTHONY
+                </a>
+            </div>
+
+            <div class="description">
+                Developer | Playwright
+            </div>
+
+            <div class="nav-bar">
+                <div class="nav-block">
+                    <a href="../about.html">
+                        about
+                    </a>
+                </div>
+                <div class="nav-block">
+                    <a href="../portfolio.html">
+                        portfolio
+                    </a>
+                </div>
+            </div>
+        </header>
+		<div class="portfolio-label">Virtual Mask</div>
+		<div id="mask-column">
+			<div id="mask-controls"></div>
+			<div id="app"></div>
+		</div>
+	</body>
+</html>

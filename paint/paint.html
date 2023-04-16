@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<!-- A lot of this html code was taken from Professor Compton's html code -->
+<html>
+	<head>
+
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald" rel="stylesheet">
+		<title>Anthony Roytman - Paint</title>
+		<link rel="stylesheet" href="../page.css">
+
+
+	<!-- P5 Loaded from a CDN -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js"></script>
+
+	<!-- Or P5 loaded locally -->
+	<!--<script src="../sources/p5.min.js"></script>-->
+	
+	<script src="../sources/vector.js"></script>
+	<script src="../sources/curve.js"></script>
+
+	<!-- Implement all the tools -->
+	<script src="tools.js"></script>
+
+	<!-- My app's code goes last, because it needs to refer to things in the previous two JS files -->
+	<script src="app.js"></script>
+
+
+	</head>
+	<body>
+		<header>
+
+			<div class="home">
+				<a href="../home.html">
+					THIS IS ME: ANTHONY
+				</a>
+			</div>
+
+			<div class="description">
+				Developer | Playwright
+			</div>
+
+			<div class="nav-bar">
+				<div class="nav-block">
+					<a href="../about.html">
+						about
+					</a>
+				</div>
+				<div class="nav-block">
+					<a href="../portfolio.html">
+						portfolio
+					</a>
+				</div>
+			</div>
+		</header>
+
+		<div id="paint-container">
+			<div class="portfolio-label">Paint Tool</div>
+			<div id="paint">
+			<!-- Processing gets installed here -->
+			</div>
+
+			<div class="paint-menu">
+				<button id="blowAway">🌬️</button>
+				<button id="riverBrush" class="pressed">🌊</button>
+				<button id="grassBrush">🌿</button>
+				<button id="petalBrush">🌷</button>
+
+				<div>
+					<input type="color" id="color0" onchange="tool.color0 = hexToHSL(this.value)">
+					<input type="color" id="color1" onchange="tool.color1 = hexToHSL(this.value)">
+					<input type="range" min="5" max="100" value="10" class="slider" onchange="tool.size = this.value*.1">
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>
