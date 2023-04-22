@@ -67,7 +67,7 @@ header {
     font-style: normal;
 
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .nav-block a:link {
@@ -76,17 +76,35 @@ header {
 
 .nav-block a:visited {
     color: #80BCA3;
-    text-decoration: none;
 }
 
 .nav-block a:hover {
     color: #BF4D28;
-    text-decoration: none;
 }
 
 .nav-block a:active {
     color: #E6AC27;
-    text-decoration: none;
+}
+
+footer {
+    color: #655643;
+    font-size: 20px;
+}
+
+footer a:link {
+    color: #655643;
+}
+
+footer a:visited {
+    color: #655643;
+}
+
+footer a:hover {
+    color: #BF4D28;
+}
+
+footer a:active {
+    color: #E6AC27;
 }
 
 .portfolio-menu {
@@ -135,6 +153,7 @@ header {
     font-size: 25px;
     color: #655643;
 }
+
 #star-column .portfolio-label {
     float: left;
 }
