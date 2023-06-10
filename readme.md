@@ -8,14 +8,6 @@ I will go into futher detail on each page of my website in later sections
 ## How does it work? How do you use it?
 To browse through my website, you can either download this repository and browse through it on your local, or you can take a look here "link."
 
-## Why are you here?
-If you're reading this or browsing through my website, it's probably because I've sent you the link so you can see the projects I've built and the work I'm capable of doing. Howdy! 
-
-## Whis is this repo here?
-I've posted the source code here for two reasons:
-1. so anybody curious can browse through the work I've created
-2. to prove that I'm capable of some of what I report on my resume
-
 ## Pages in my website
 ### Home page
 This is my website's central location, from which you can navigate to my about page and my portfolio. It features a silly picture of me that I'm quite fond of, even though it is over two years old now (I no longer have such long hair).
