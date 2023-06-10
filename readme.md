@@ -6,7 +6,7 @@ The entire website uses the Headache color pallette by joy_of_summer on Colour L
 I will go into futher detail on each page of my website in later sections
 
 ## How does it work? How do you use it?
-To browse through my website, you can either download this repository and browse through it on your local, or you can take a look here "link."
+To browse through my website, you can either download this repository and browse through it on your local, or you can take a look [here](https://www.anthonyroytman.net/home.html).
 
 ## Pages in my website
 ### Home page
